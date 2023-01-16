@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    .button {
+        display: inline-block;
+        background-color: rgb(15, 150, 15);
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+        
+        
+        .options {
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 1;
+          display: flex;
+        }
+        
+        .option {
+          background-color: rgba(255, 255, 255, 0.8);
+          color: black;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 12px 16px;
+          font-size: 16px;
+          border-radius: 4px;
+          margin-left: 4px;
+        }
+        .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay img {
+  width: 40%;
+}
+
+.overlay p {
+  font-size: 24px;
+  color: rgb(17, 17, 17);
+  margin-top: 24px;
+}
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+
+.social-text {
+  font-size: 16px;
+  color: #333;
+} 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1300px;
+  height: 300px;
+  background-color: lightgrey;
+  text-align: left;
+}
+
+.section {
+  display:inside;
+  flex-direction: column;
+  align-items:left;
+  text-align: left;
+}
+
+.text {
+   margin-top: 00px;
+  font-size: 16px;
+  padding-left: 00px;
+}
+
+.image-container {
+    position: relative; /* Allows the rectangle to be positioned relative to the image-container*/
+}
+
+.rectangle {
+    position: absolute; /* Position the rectangle absolutely */
+    top: 50%; /* Center the rectangle vertically */
+    left: 50%; /* Center the rectangle horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position of the rectangle so it's truly centered */
+    width: 800px; /* Set the width of the rectangle */
+    height: 300px; /* Set the height of the rectangle */
+    background-color: rgb(252, 250, 250); /* Set the background color of the rectangle */
+    text-align: center
+}
+
+  .contact-form{
+    padding-left: 60px; 
+  display: flex;
+  align-items: center;
+
+  }
+  
+  
+  
+  </style>
+</head>
+
+
+
+<body>
+  <div class="options">
+  <a href="#about"><button class="option">ABOUT</button></a>
+    
+    <a href="#professional skills"><button class="option">SKILLS</button></a>
+    
+   <a href="#education"> <button class="option">EDUCATION</button></a>
+   <a href="#contact me"> <button class="option">CONTACT</button></a>
+</div>
+
+  <img src="pfnew0.jpg" alt="image" height="100%" width="100%">
+  <div class="overlay"><br><br>
+    <img src="ST.jpeg" alt="image-overlay">
+    <p><b>SHUBHAM THAKUR</b></p>
+    <p></p>
+    <div>
+        <button class="button">Hire Me</button>
+        <button class="button"   ><a href="resume.html"   href="path/to/yourfile.pdf" download="resume.html" style="text-decoration: none; color: inherit;" >Download CV  </a>
+         </button>
+
+        
+      </div><br><br><br><br><br><br><br><br>
+      <div class="social-links">
+        <a class="social-link" href="">
+          <img class="social-icon" src="https://th.bing.com/th/id/OIP.d0KYHVt6Rk1CAKJutaa1EgHaHa?pid=ImgDet&rs=1" alt="Instagram icon">
+          <span class="social-text">JACC THAKUR</span>
+        </a>
+        <a class="social-link" href="">
+          <img class="social-icon" src="https://clipart.info/images/ccovers/1509135366facebook-symbol-png-logo.png" alt="Facebook icon">
+          <span class="social-text">SHUBHAM THAKUR</span>
+        </a>
+        <a class="social-link" href="">
+          <img class="social-icon" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" alt="Twitter icon">
+          <span class="social-text">SHUBHAM THAKUR</span>
+        </a>
+      </div>
+ </div>
+<div class="container" id="container-1">
+  <div class="section">
+<div id="about"><h2>About</h2></div>
+    <div class="text-align:left;">  
+   <pre>  
+Hello! I am Shubham Thakur also known as Jacc Thakur.
+I am a learning student in Mumbai NSTI.
+Here im pursing a Advance Diploma in IT & Cloud Computing
+which is also collebrated with IBM and Edunet Foundation.>
+</pre> </div>
+  </div>
+  <div class="section">
+<div><h2>Basic Information</h2></div>
+<div class="text-align:left">
+  <pre>
+<b>AGE:</b>      27
+<b>EMAIL:</b>    Superstarjacc@gmail.com
+<b>PHONE:</b>    7447070958
+<b>ADDRESS:</b>  RB 2 253/3 Subhash Colony,
+          South Civil lines, Jabalpur Madhaya Pradesh. 482001
+<b>LANGUAGE:</b> English, Hindi.
+    </pre></div>
+     </div>
+</div>
+<h1 id="professional skills"><center>Professional Skills</center></h1>
+<div class="container" id="container-0"><div class="skills1">
+  <div class="progress">HTML 40%</div>
+  <progress value="40" max="100"></progress>
+  <div class="progress">CSS 40%</div>
+  <progress value="40" max="100"></progress>
+</div>
+<div class="skills2">
+  <div class="progress">Linux 40%</div>
+  <progress value="40" max="100">Linux</progress>
+  <div class="progress">Networking 40%</div>
+  <progress value="40" max="100">Networking</progress>
+</diV>   </div>
+
+    
+    <h1 id="education"><center>Education</center></h1>
+    <div class="container">
+      <div style="background-color: rgb(6, 153, 50);  width: 40%; height: 100px;  padding-top: 48px;"  ><center>Advance Diploma<br>
+        2022-2024</center></div>
+      <div style="width: 60%; height: 100px;  padding-top: 48px; "><center>Advance Diploma in IT, Cloud computing & Networking<br>NSTI Mumbai</center></div>
+    </div>
+    <div class="container">
+      <div style="width: 40%; height: 100px; background-color: rgb(8, 185, 46);   padding-top: 48px;"><center>ITI Diploma<br>2018-2020</div>
+      <div style="width: 60%; height: 100px;   padding-top: 48px;"><center>ITI Diploma in Information Communication & Technology System Maintenance<br> Goverment Model ITI Jabalpur  (M.P)</center></div>
+    </div>
+    <div class="container">
+      <div style="width: 40%; height: 100px;  background-color: rgb(8, 153, 8); padding-top: 48px;"><center>Higher Secondary<br>2021</center></div>
+      <div style="width: 60%; height: 100px;   padding-top: 48px;"><center>Madhaya Pradesh State of Open Schooling.</center></div>
+    </div>
+    <div class="container">
+      <div style="width: 40%; height: 100px;  background-color: rgb(8, 161, 8); padding-top: 48px;"><center>High School<br>2011</center></div>
+      <div style="width: 60%; height: 100px;  padding-top: 48px; "><center>Kendriya Vidhyalaya No.2 GCF Jabalpur</center></div>
+    </div>
+    
+      
+    </div>
+    
+    
+      
+    
+    <div class="image-container">
+      <img src="mapportfolio.png" alt="An image"  width="1300" height="500">
+     
+
+      <div class="rectangle"  text:>
+        <br><h3 id="contact me"><center>Contact Me</center></h3>
+        <form id="contact-form" >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+
+        </form>
+
+
+
+      </div>
+      
+    </div>
+   
+    
+    
+
+        
+            
+   
+    
+</body>
+</html>
