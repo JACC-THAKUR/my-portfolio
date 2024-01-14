@@ -252,7 +252,19 @@ which is also collebrated with IBM and Edunet Foundation.>
       </div>
       
     </div>
-   
+   <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "4b00db9c-41e2-4574-b75e-7817021cb725", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "0a804712-8ba4-48a9-aa0a-3777b66eaf73", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
     
     
 
